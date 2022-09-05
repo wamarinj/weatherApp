@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  width: 100vw;
+  height: 100vh;
+  background: url("./assets/weatherGif.gif");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherCard{
+  background-color: rgb(66, 100, 133);
+  border-radius: 10px;
+  color: #Fff;
+  opacity: 0.8;  
+  padding: 2rem;
+  text-align: center;
+  font-size: 12px;
+}
+
+.weatherCard h2 {
+  margin-top: 1rem;
+}
+.weatherCard h2 span {
+  display: block;
+}
+.weatherCard img{
+  width: 85px;
+}
+.button{
+  margin-top: 1rem;
+  font-weight: bold;
+}

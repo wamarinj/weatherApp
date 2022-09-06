@@ -39,7 +39,7 @@ function App() {
         <h1>Weather App</h1>
         { weather &&
             <div>
-              <img src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`} alt="weather icon"/> 
+              <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`} alt="weather icon"/> 
               <h2>{`${weather.name}, ${weather.sys.country}`}</h2>              
               <h2> {weather.weather[0].description.toUpperCase()}</h2>
               <h2>
